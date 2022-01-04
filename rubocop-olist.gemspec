@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.summary       = "RuboCop configuration for Olist"
   spec.description   = "RuboCop configuration for Ruby projects on Olist"
   spec.homepage      = "https://gitlab.olist.com/vnda/rubocop-olist"
-  spec.required_ruby_version = ">= 2.6.0"
+  spec.required_ruby_version = ">= 2.5.5"
 
   spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
 
