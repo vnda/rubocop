@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rubocop-olist (0.1.0)
+    rubocop-vnda (0.1.0)
       rubocop-rails (= 2.13.0)
       rubocop-rspec (= 2.7.0)
       standard (= 1.5.0)
@@ -20,7 +20,7 @@ GEM
       concurrent-ruby (~> 1.0)
     minitest (5.15.0)
     parallel (1.21.0)
-    parser (3.0.3.2)
+    parser (3.1.0.0)
       ast (~> 2.4.1)
     rack (2.2.3)
     rainbow (3.0.0)
@@ -60,7 +60,7 @@ PLATFORMS
 
 DEPENDENCIES
   rake (~> 13.0)
-  rubocop-olist!
+  rubocop-vnda!
 
 BUNDLED WITH
    2.3.3
