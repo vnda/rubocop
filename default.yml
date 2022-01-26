@@ -14,3 +14,11 @@ AllCops:
 
 RSpec/MultipleExpectations:
   Enabled: false
+
+RSpec/DescribeClass:
+  IgnoredMetadata:
+    type:
+      - request
+      - controller
+      - task
+      - lambda
