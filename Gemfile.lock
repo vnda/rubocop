@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rubocop-vnda (0.1.0)
+    rubocop-vnda (0.2.0)
       rubocop-rails (= 2.13.0)
       rubocop-rspec (= 2.7.0)
       standard (= 1.5.0)
@@ -9,7 +9,7 @@ PATH
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (7.0.0)
+    activesupport (7.0.1)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 1.6, < 2)
       minitest (>= 5.1)
@@ -23,7 +23,7 @@ GEM
     parser (3.1.0.0)
       ast (~> 2.4.1)
     rack (2.2.3)
-    rainbow (3.0.0)
+    rainbow (3.1.1)
     rake (13.0.6)
     regexp_parser (2.2.0)
     rexml (3.2.5)
@@ -57,6 +57,7 @@ GEM
 
 PLATFORMS
   x86_64-darwin-18
+  x86_64-darwin-21
 
 DEPENDENCIES
   rake (~> 13.0)
