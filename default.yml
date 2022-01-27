@@ -22,3 +22,7 @@ RSpec/DescribeClass:
       - controller
       - task
       - lambda
+
+RSpec/MultipleMemoizedHelpers:
+  Max: 7
+  AllowSubject: true
