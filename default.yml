@@ -26,3 +26,6 @@ RSpec/DescribeClass:
 RSpec/MultipleMemoizedHelpers:
   Max: 7
   AllowSubject: true
+
+RSpec/LetSetup:
+  Enabled: true
