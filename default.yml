@@ -29,3 +29,6 @@ RSpec/MultipleMemoizedHelpers:
 
 RSpec/LetSetup:
   Enabled: true
+
+Layout/LineLength:
+  Max: 120
