@@ -1,35 +1,29 @@
 # Rubocop::Vnda
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/rubocop/vnda`. To experiment with that code, run `bin/console` for an interactive prompt.
+Essa é uma gem criada para a padronização de código nos projetos de Vnda
 
-TODO: Delete this and the text above, and describe your gem
+## Instalação
 
-## Installation
-
-Add this line to your application's Gemfile:
+Basta colocar a gem no Gemfile do seu projeto (sempre especificando a versão):
 
 ```ruby
-gem 'rubocop-vnda'
+gem 'rubocop-vnda', 'X.Y.Z'
 ```
 
 And then execute:
 
     $ bundle install
+    $ bundle binstub rubocop
 
-Or install it yourself as:
+## Uso
 
-    $ gem install rubocop-vnda
+Depois de instalado, crie (ou remove caso já exista) o arquivo `.rubocop.yml` com o seguinte conteúdo
 
-## Usage
+```yaml
+inherit_gem:
+  rubocop-vnda: default.yml
+```
 
-TODO: Write usage instructions here
+## Contribuindo
 
-## Development
-
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and the created tag, and push the `.gem` file to [rubygems.org](https://rubygems.org).
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/rubocop-vnda.
+Para configurar novas regras ou alterar regras atuais, basta modificar o arquivo `default.yml` na raiz desse repositório em um branch específico e abrir um pull request
