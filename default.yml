@@ -33,6 +33,9 @@ RSpec/LetSetup:
 Layout/LineLength:
   Max: 120
 
+Layout/EmptyLineAfterGuardClause:
+  Enabled: true
+
 Style/FrozenStringLiteralComment:
   Enabled: true
   EnforcedStyle: always_true
