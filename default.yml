@@ -31,6 +31,7 @@ RSpec/LetSetup:
   Enabled: true
 
 Layout/LineLength:
+  Enabled: true
   Max: 120
 
 Layout/EmptyLineAfterGuardClause:
