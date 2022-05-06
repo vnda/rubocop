@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rubocop-vnda (0.9.0)
+    rubocop-vnda (0.10.0)
       rubocop-rails (= 2.14.2)
       rubocop-rspec (= 2.10.0)
       standard (= 1.11.0)
