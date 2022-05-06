@@ -40,3 +40,6 @@ Layout/EmptyLineAfterGuardClause:
 Style/FrozenStringLiteralComment:
   Enabled: true
   EnforcedStyle: always_true
+
+Style/MethodCallWithArgsParentheses:
+  Enabled: true

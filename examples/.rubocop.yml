@@ -1,0 +1,7 @@
+inherit_from: ../default.yml
+
+AllCops:
+  Exclude:
+    - "../bin/*"
+    - "../Rakefile"
+    - "../rubocop-vnda.gemspec"
